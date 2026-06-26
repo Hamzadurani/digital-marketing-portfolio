@@ -4397,6 +4397,7 @@ body.loaded .cursor-glow {
     order: 1;
     justify-self: center;
     margin-inline: auto;
+    margin-top: 20px;
     max-width: min(100%, 280px);
   }
 
@@ -4758,7 +4759,7 @@ body.loaded .cursor-glow {
 
   .hero {
     min-height: auto;
-    padding-top: 88px;
+    padding-top: 120px;
     padding-bottom: 36px;
   }
 
@@ -5026,6 +5027,14 @@ body.loaded .cursor-glow {
 
   .logo-text {
     font-size: 1.05rem;
+  }
+
+  .hero {
+    padding-top: 128px;
+  }
+
+  .hero-image-wrapper {
+    margin-top: 24px;
   }
 
   .hero-title {
