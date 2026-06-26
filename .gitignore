@@ -1,0 +1,14 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets
+.env
+.env.*
+
+# Cursor / IDE
+.cursor/
+
+# Temp dev files
+_services_section.txt

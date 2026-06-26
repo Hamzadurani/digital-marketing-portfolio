@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Digital Marketing Specialist — Helping businesses grow online through strategic digital marketing solutions.">
+  <title>Digital Marketing Specialist | Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Loading Screen -->
+  <div class="loader" id="loader" aria-hidden="true">
+    <div class="loader-inner">
+      <p class="loader-logo">Amir Hamza <span>Portfolio</span></p>
+      <div class="loader-bar"><span></span></div>
+      <p class="loader-text">Loading Experience...</p>
+    </div>
+  </div>
+
+  <!-- Scroll Progress -->
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <!-- Navbar -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="index.html" class="nav-logo">
+        <span class="logo-text">Amir Hamza <span>Portfolio</span></span>
+      </a>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="index.html" class="nav-link active">Home</a></li>
+        <li><a href="services.html" class="nav-link">Services</a></li>
+        <li><a href="case-studies.html" class="nav-link">Case Studies</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="contact.html" class="nav-link">Contact Us</a></li>
+        <li class="nav-mobile-cta"><a href="contact.html" class="btn btn-primary btn-full">Contact Us</a></li>
+      </ul>
+
+      <a href="contact.html" class="btn btn-primary btn-nav">Contact Us</a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Hero Section -->
+    <section class="hero section" id="home">
+      <div class="hero-bg">
+        <div class="floating-shape shape-1"></div>
+        <div class="floating-shape shape-2"></div>
+        <div class="floating-shape shape-3"></div>
+        <div class="floating-shape shape-4"></div>
+      </div>
+
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="hero-tag fade-up">Helping Businesses Grow Online Through Strategic Digital Marketing Solutions.</p>
+          <h1 class="hero-title fade-up">Digital Marketing <span class="gradient-text">Specialist</span></h1>
+          <p class="hero-subtitle fade-up">I Help Businesses Build Their Online Presence, Generate Quality Leads, and Increase Revenue Through Strategic Digital Marketing Solutions.</p>
+          <div class="hero-buttons fade-up">
+            <a href="contact.html" class="btn btn-primary">Get Started</a>
+            <a href="#services" class="btn btn-outline">Explore Services</a>
+          </div>
+        </div>
+
+        <div class="hero-image-wrapper fade-up">
+          <div class="hero-image-glow"></div>
+          <div class="hero-visual floating">
+            <div class="hero-image-frame"></div>
+            <div class="hero-image">
+              <div class="hero-image-bg" aria-hidden="true">
+                <span class="hero-bg-shape hero-bg-shape-1"></span>
+                <span class="hero-bg-shape hero-bg-shape-2"></span>
+              </div>
+              <div class="hero-photo-stage">
+                <img src="HamzaHeroSection.png" alt="Digital Marketing Specialist — Hamza" class="hero-photo" width="340" height="420">
+              </div>
+              <div class="hero-image-overlay" aria-hidden="true"></div>
+            </div>
+          </div>
+          <div class="hero-badge pulse">Available for Hire</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Counter -->
+    <section class="stats section" id="stats">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-card reveal fade-up">
+            <div class="stat-card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            </div>
+            <span class="stat-number" data-target="11">0</span>
+            <span class="stat-label">Projects Completed</span>
+          </div>
+          <div class="stat-card reveal fade-up">
+            <div class="stat-card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <span class="stat-number" data-target="15" data-suffix="+">0</span>
+            <span class="stat-label">Happy Clients</span>
+          </div>
+          <div class="stat-card reveal fade-up">
+            <div class="stat-card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <span class="stat-number" data-target="4" data-suffix="+">0</span>
+            <span class="stat-label">Years of Experience</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me -->
+    <section class="about section" id="about">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">About Me</span>
+          <h2 class="section-title">Transforming Brands Into <span class="gradient-text">Digital Success</span></h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-image reveal slide-left">
+            <div class="about-image-frame">
+              <img src="hamza.png" alt="Amir Hamza - Digital Marketing Specialist" class="about-photo" width="520" height="420">
+              <div class="about-experience-badge">
+                <span class="badge-number">4+</span>
+                <span class="badge-text">Years Experience</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-text reveal slide-right">
+            <p class="about-description">I am a Digital Marketing Specialist helping businesses increase visibility, generate leads, and grow their online presence through result-driven marketing strategies.</p>
+            <p class="about-description">With a data-driven mindset and creative execution, I design campaigns that deliver measurable ROI — from dominating local search to building high-converting paid ad funnels that scale your revenue.</p>
+
+            <ul class="about-highlights">
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                Result-oriented strategies tailored to your business goals
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                Transparent reporting with clear performance metrics
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                End-to-end digital marketing from SEO to paid ads
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                Dedicated support and long-term partnership approach
+              </li>
+            </ul>
+
+            <a href="about.html" class="btn btn-primary">Learn More About Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services section" id="services">
+      <div class="services-bg" aria-hidden="true">
+        <span class="services-orb services-orb-1"></span>
+        <span class="services-orb services-orb-2"></span>
+      </div>
+
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Services</span>
+          <h2 class="section-title">Premium Digital Marketing <span class="gradient-text">Services</span></h2>
+          <p class="section-subtitle">Comprehensive solutions tailored to elevate your brand and drive measurable growth.</p>
+        </div>
+
+        <div class="services-highlights reveal fade-up">
+          <div class="services-highlight">
+            <span class="services-highlight-icon">8+</span>
+            <div>
+              <strong>Core Services</strong>
+              <span>End-to-end marketing solutions</span>
+            </div>
+          </div>
+          <div class="services-highlight">
+            <span class="services-highlight-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/></svg>
+            </span>
+            <div>
+              <strong>Results Driven</strong>
+              <span>Strategies built for ROI</span>
+            </div>
+          </div>
+          <div class="services-highlight">
+            <span class="services-highlight-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </span>
+            <div>
+              <strong>Tailored Plans</strong>
+              <span>Customized for your goals</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card reveal zoom-in">
+            <span class="service-number" aria-hidden="true">01</span>
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <span class="service-tag">Local Growth</span>
+            <h3>Google Business Profile (GMB) Creation & Optimization</h3>
+            <p>Maximize local visibility with fully optimized Google Business Profiles that attract clicks, calls, and foot traffic.</p>
+            <span class="service-arrow" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </span>
+          </article>
+
+          <article class="service-card reveal zoom-in">
+            <span class="service-number" aria-hidden="true">02</span>
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </div>
+            <span class="service-tag">Brand Growth</span>
+            <h3>Social Media Handling & Marketing</h3>
+            <p>Build engaged communities and brand loyalty through strategic content, scheduling, and audience growth campaigns.</p>
+            <span class="service-arrow" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </span>
+          </article>
+
+          <article class="service-card reveal zoom-in">
+            <span class="service-number" aria-hidden="true">03</span>
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+            </div>
+            <span class="service-tag">High ROI</span>
+            <h3>Paid Advertisement</h3>
+            <p>Drive targeted traffic and conversions with high-ROI campaigns across Google Ads, Meta, and other paid platforms.</p>
+            <span class="service-arrow" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </span>
+          </article>
+
+          <article class="service-card reveal zoom-in">
+            <span class="service-number" aria-hidden="true">04</span>
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+            </div>
+            <span class="service-tag">Authority</span>
+            <h3>Backlinks Building</h3>
+            <p>Strengthen domain authority with ethical, high-quality backlink strategies that boost search rankings sustainably.</p>
+            <span class="service-arrow" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </span>
+          </article>
+
+          <article class="service-card reveal zoom-in">
+            <span class="service-number" aria-hidden="true">05</span>
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </div>
+            <span class="service-tag">Web Dev</span>
+            <h3>WordPress Development</h3>
+            <p>Launch fast, secure, and conversion-focused WordPress websites designed to represent your brand professionally.</p>
+            <span class="service-arrow" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </span>
+          </article>
+
+          <article class="service-card reveal zoom-in">
+            <span class="service-number" aria-hidden="true">06</span>
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+            </div>
+            <span class="service-tag">Creative</span>
+            <h3>Graphics Designing</h3>
+            <p>Create stunning visuals — banners, social posts, and brand assets that capture attention and communicate value.</p>
+            <span class="service-arrow" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </span>
+          </article>
+
+          <article class="service-card reveal zoom-in">
+            <span class="service-number" aria-hidden="true">07</span>
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </div>
+            <span class="service-tag">Rankings</span>
+            <h3>Local SEO</h3>
+            <p>Dominate local search results with geo-targeted SEO strategies that put your business in front of nearby customers.</p>
+            <span class="service-arrow" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </span>
+          </article>
+
+          <article class="service-card reveal zoom-in">
+            <span class="service-number" aria-hidden="true">08</span>
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="8.5" cy="7" r="4"/><line x1="20" y1="8" x2="20" y2="14"/><line x1="23" y1="11" x2="17" y2="11"/></svg>
+            </div>
+            <span class="service-tag">Conversions</span>
+            <h3>Lead Generation</h3>
+            <p>Build predictable pipelines with lead magnets, landing pages, and funnels engineered to capture qualified prospects.</p>
+            <span class="service-arrow" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </span>
+          </article>
+        </div>
+
+        <div class="services-cta reveal fade-up">
+          <div class="services-cta-content">
+            <h3>Not sure which service fits your business?</h3>
+            <p>Let's build a custom strategy that targets your audience and delivers real results.</p>
+          </div>
+          <a href="https://wa.me/923334930961" class="btn btn-primary btn-whatsapp" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            WhatsApp Now
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Me -->
+    <section class="why-choose section" id="why-choose">
+      <div class="why-bg" aria-hidden="true">
+        <span class="why-orb why-orb-1"></span>
+        <span class="why-orb why-orb-2"></span>
+      </div>
+
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Why Choose Me</span>
+          <h2 class="section-title">Your Partner in <span class="gradient-text">Digital Growth</span></h2>
+          <p class="section-subtitle">I combine strategy, creativity, and analytics to deliver marketing that actually moves the needle.</p>
+        </div>
+
+        <div class="why-stats reveal fade-up">
+          <div class="why-stat">
+            <strong>4+</strong>
+            <span>Years Experience</span>
+          </div>
+          <div class="why-stat-divider" aria-hidden="true"></div>
+          <div class="why-stat">
+            <strong>8+</strong>
+            <span>Core Services</span>
+          </div>
+          <div class="why-stat-divider" aria-hidden="true"></div>
+          <div class="why-stat">
+            <strong>100%</strong>
+            <span>Client Focused</span>
+          </div>
+        </div>
+
+        <div class="why-grid">
+          <article class="why-card reveal fade-up">
+            <span class="why-card-accent" aria-hidden="true"></span>
+            <div class="why-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+            </div>
+            <span class="why-badge">Measurable KPIs</span>
+            <h3>Proven Results</h3>
+            <p>Every campaign is built around KPIs that matter — leads, conversions, and revenue growth you can measure.</p>
+          </article>
+
+          <article class="why-card reveal fade-up">
+            <span class="why-card-accent" aria-hidden="true"></span>
+            <div class="why-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <span class="why-badge">4+ Years</span>
+            <h3>Trusted Expertise</h3>
+            <p>4+ years of hands-on experience across SEO, paid ads, social media, and web development for diverse industries.</p>
+          </article>
+
+          <article class="why-card reveal fade-up">
+            <span class="why-card-accent" aria-hidden="true"></span>
+            <div class="why-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+            </div>
+            <span class="why-badge">Clear Reports</span>
+            <h3>Transparent Communication</h3>
+            <p>Regular updates, clear reports, and honest recommendations — no jargon, no hidden surprises.</p>
+          </article>
+
+          <article class="why-card reveal fade-up">
+            <span class="why-card-accent" aria-hidden="true"></span>
+            <div class="why-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+            </div>
+            <span class="why-badge">All-in-One</span>
+            <h3>Full-Stack Marketing</h3>
+            <p>From GMB optimization to WordPress sites and graphic design — one specialist, complete digital solutions.</p>
+          </article>
+
+          <article class="why-card reveal fade-up">
+            <span class="why-card-accent" aria-hidden="true"></span>
+            <div class="why-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <span class="why-badge">Quick Launch</span>
+            <h3>Fast Turnaround</h3>
+            <p>Agile workflows and efficient processes ensure your campaigns launch quickly without compromising quality.</p>
+          </article>
+
+          <article class="why-card reveal fade-up">
+            <span class="why-card-accent" aria-hidden="true"></span>
+            <div class="why-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+            </div>
+            <span class="why-badge">Long-Term Growth</span>
+            <h3>Client-First Approach</h3>
+            <p>Your success is my priority. I treat every project as a partnership built on trust and long-term growth.</p>
+          </article>
+        </div>
+
+        <div class="why-trust reveal fade-up">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
+          <p>Trusted by businesses looking for <strong>real growth</strong>, not just vanity metrics.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work Process -->
+    <section class="process section" id="process">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Work Process</span>
+          <h2 class="section-title">How I Deliver <span class="gradient-text">Results</span></h2>
+          <p class="section-subtitle">A streamlined, proven process designed to take your business from strategy to success.</p>
+        </div>
+
+        <div class="process-timeline">
+          <article class="process-step reveal slide-left">
+            <div class="process-number">01</div>
+            <div class="process-content">
+              <h3>Discovery & Audit</h3>
+              <p>I analyze your business, competitors, target audience, and current digital presence to identify opportunities and gaps.</p>
+            </div>
+          </article>
+
+          <article class="process-step reveal slide-right">
+            <div class="process-number">02</div>
+            <div class="process-content">
+              <h3>Strategy & Planning</h3>
+              <p>A custom marketing roadmap is created with clear goals, channel selection, timelines, and budget allocation.</p>
+            </div>
+          </article>
+
+          <article class="process-step reveal slide-left">
+            <div class="process-number">03</div>
+            <div class="process-content">
+              <h3>Execution & Launch</h3>
+              <p>Campaigns go live — from SEO optimizations and ad setups to content creation and website development.</p>
+            </div>
+          </article>
+
+          <article class="process-step reveal slide-right">
+            <div class="process-number">04</div>
+            <div class="process-content">
+              <h3>Monitor & Optimize</h3>
+              <p>Performance is tracked daily with A/B testing, data analysis, and continuous improvements for maximum ROI.</p>
+            </div>
+          </article>
+
+          <article class="process-step reveal slide-left">
+            <div class="process-number">05</div>
+            <div class="process-content">
+              <h3>Report & Scale</h3>
+              <p>Detailed reports show your results. Successful strategies are scaled to drive even greater business growth.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials section" id="testimonials">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Testimonials</span>
+          <h2 class="section-title">What Clients <span class="gradient-text">Say</span></h2>
+          <p class="section-subtitle">Trusted by businesses who've experienced real, measurable growth.</p>
+        </div>
+
+        <div class="testimonials-grid">
+          <article class="testimonial-card reveal slide-left">
+            <div class="testimonial-stars" aria-label="5 star rating">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <p class="testimonial-text">"Amir Hamza optimized our Google Business Profile and handled local SEO for our CCTV business. We now rank #1 on Google Maps locally and get consistent installation inquiries. Excellent work!"</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+              </div>
+              <div>
+                <h4>Hadi CCTV Team</h4>
+                <span>Hadi CCTV Installation Services</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card reveal fade-up">
+            <div class="testimonial-stars" aria-label="5 star rating">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <p class="testimonial-text">"From GMB and local SEO to social media and our WordPress website — Amir built a complete digital presence for Skymax. Our brand visibility in Rawalpindi has improved and we're receiving more quality leads."</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+              </div>
+              <div>
+                <h4>Skymax Pakistan</h4>
+                <span>Skymax Pakistan Pvt Ltd</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card reveal slide-right">
+            <div class="testimonial-stars" aria-label="5 star rating">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <p class="testimonial-text">"Amir updated our website, optimized our Google Business Profile, and managed Facebook, Instagram, and LinkedIn professionally. Silverway's online presence looks credible and customers reach out with more confidence."</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+              </div>
+              <div>
+                <h4>Silverway Team</h4>
+                <span>Silverway General Transport · UAE</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq section" id="faq">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">FAQ</span>
+          <h2 class="section-title">Frequently Asked <span class="gradient-text">Questions</span></h2>
+          <p class="section-subtitle">Got questions? Here are answers to the most common ones from my clients.</p>
+        </div>
+
+        <div class="faq-list reveal fade-up">
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>What digital marketing services do you offer?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>I offer a full range of services including Google Business Profile optimization, social media marketing, paid advertising, backlinks building, WordPress development, graphic design, local SEO, and lead generation — all tailored to your business goals.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>How long does it take to see results?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>Results vary by service. Paid ads can show results within days, while SEO and GMB optimization typically take 2–3 months. I provide realistic timelines during our initial strategy session and keep you updated throughout.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Do you work with small businesses?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>Absolutely! I specialize in helping small and medium businesses establish a strong online presence. Flexible packages are available to fit different budgets without compromising on quality or results.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>How do you measure campaign success?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>I track KPIs relevant to your goals — website traffic, lead volume, conversion rates, ROAS, keyword rankings, and engagement metrics. You'll receive regular, easy-to-understand performance reports.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>What is your pricing structure?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>Pricing depends on the scope of work, channels involved, and campaign duration. I offer project-based and monthly retainer options. Contact me for a free consultation and custom quote.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>How do we get started?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>Simply reach out via the <a href="contact.html">Contact Us</a> page or email me directly. We'll schedule a free discovery call to discuss your goals, and I'll prepare a tailored strategy proposal for your business.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call To Action -->
+    <section class="cta section home-cta" id="cta">
+      <div class="cta-bg">
+        <div class="floating-shape shape-1"></div>
+        <div class="floating-shape shape-2"></div>
+      </div>
+      <div class="container">
+        <div class="cta-content reveal zoom-in">
+          <span class="section-tag">Let's Work Together</span>
+          <h2>Ready to Grow Your Business <span class="gradient-text">Online?</span></h2>
+          <p>Let's build a digital marketing strategy that drives real results. Book a free consultation and take the first step toward measurable growth.</p>
+          <div class="cta-buttons">
+            <a href="https://wa.me/923334930961" class="btn btn-primary btn-lg btn-whatsapp" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              WhatsApp Now
+            </a>
+            <a href="services.html" class="btn btn-outline btn-lg">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20" aria-hidden="true"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+              Explore Services
+            </a>
+          </div>
+          <div class="cta-trust">
+            <span>✓ WhatsApp Available</span>
+            <span>✓ No Hidden Fees</span>
+            <span>✓ Quick Response</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-top-bar" aria-hidden="true"></div>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo footer-logo">
+            <span class="logo-text">Amir Hamza <span>Portfolio</span></span>
+          </a>
+          <p>Digital Marketing Specialist helping businesses grow through Local SEO, Google Business Profile optimization, social media marketing, and lead generation.</p>
+          <ul class="footer-contact-list">
+            <li>
+              <a href="mailto:Amirhamzaprofessional@gmail.com">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                Amirhamzaprofessional@gmail.com
+              </a>
+            </li>
+            <li>
+              <a href="https://wa.me/923334930961" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                +92 333 4930961
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h4 class="footer-heading">Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="case-studies.html">Case Studies</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-connect">
+          <h4 class="footer-heading">Connect With Me</h4>
+          <div class="footer-social-list">
+            <a href="https://www.facebook.com/hamxa.durani.5" class="footer-social-link footer-social-link--facebook" target="_blank" rel="noopener noreferrer">
+              <span class="footer-social-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+              </span>
+              <span>Facebook</span>
+            </a>
+            <a href="https://www.linkedin.com/in/amir-hamza-3b2220358/" class="footer-social-link footer-social-link--linkedin" target="_blank" rel="noopener noreferrer">
+              <span class="footer-social-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+              </span>
+              <span>LinkedIn</span>
+            </a>
+            <a href="https://www.instagram.com/imhamzadurani/" class="footer-social-link footer-social-link--instagram" target="_blank" rel="noopener noreferrer">
+              <span class="footer-social-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+              </span>
+              <span>Instagram</span>
+            </a>
+          </div>
+          <a href="contact.html" class="btn btn-primary btn-sm footer-cta">Contact Us</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Amir Hamza Portfolio. All rights reserved.</p>
+        <p class="footer-meta">Digital Marketing Specialist · Rawalpindi, Pakistan</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
